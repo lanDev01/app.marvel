@@ -4,7 +4,11 @@ module.exports = {
     "./src/**/*.{html,ts}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      height: {
+        'calc': 'calc(100vh - 5rem)'
+      }
+    },
   },
   plugins: [],
 }

@@ -1,0 +1,5 @@
+<main class="w-full h-calc flex items-center justify-evenly flex-wrap gap-4 max-w-screen-2xl mt-6">
+  @for (item of characters; track characters.id) {
+    <app-cards [character]="item"></app-cards>
+  }
+</main>
